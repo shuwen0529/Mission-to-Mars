@@ -48,37 +48,37 @@
             </div>
         </div> 
     </div>
-
-
+    
 
     <div class="container-fluid">
         <h2 align="center">Mars Hemispheres</h2>
             <div class="body">
             <div class="row">
                 <div class="col-md-6">                   
-                    <img src="https://astrogeology.usgs.gov//cache/images/cfa62af2557222a02478f1fcd781d445_cerberus_enhanced.tif_full.jpg" style="width:60%; padding-left: 100px;">
+                    <img src="{{mars_facts_data.hemisphere_img_url[0]['img_url']}}" alt="featured image" style="width: 80%; height: 20%">
                     <div class="caption"style="font-weight: bold;">
-                    <p>Cerberus Hemisphere Enhanced</p>
+                    <p>{{mars_facts_data.hemisphere_img_url[0]['title']}}</p>
                     </div> 
                 </div>
+                
                 <div class="col-md-6">                       
-                    <img src="https://astrogeology.usgs.gov//cache/images/3cdd1cbf5e0813bba925c9030d13b62e_schiaparelli_enhanced.tif_full.jpg"  style="width:60%; padding-right: 100px;">
+                    <img src="{{mars_facts_data.hemisphere_img_url[1]['img_url']}}"  style="width: 80%; height: 20%">
                      <div class="caption"style="font-weight: bold;">
-                    <p>Schiaparelli Hemisphere Enhanced</p>
+                    <p>{{mars_facts_data.hemisphere_img_url[1]['title']}}</p>
                     </div> 
                 </div>                
 
                 <div class="col-md-6">                       
-                    <img src="https://astrogeology.usgs.gov//cache/images/ae209b4e408bb6c3e67b6af38168cf28_syrtis_major_enhanced.tif_full.jpg"  style="width:60%; padding-left: 100px;">
+                    <img src="{{mars_facts_data.hemisphere_img_url[2]['img_url']}}"  style="width: 80%; height: 20%">
                     <div class="caption"style="font-weight: bold;">
-                    <p>Syrtis Major Hemisphere Enhanced</p>
+                    <p>{{mars_facts_data.hemisphere_img_url[2]['title']}}</p>
                     </div> 
-                </div>
+                </div> 
 
                 <div class="col-md-6">                       
-                    <img src="https://astrogeology.usgs.gov//cache/images/7cf2da4bf549ed01c17f206327be4db7_valles_marineris_enhanced.tif_full.jpg"  style="width:60%; padding-right: 100px;">
+                    <img src="{{mars_facts_data.hemisphere_img_url[3]['img_url']}}"  style="width: 80%; height: 20%">
                     <div class="caption"style="font-weight: bold;">
-                    <p>Valles Marineris Hemisphere Enhanced</p>
+                    <p>{{mars_facts_data.hemisphere_img_url[3]['title']}}</p>
                     </div> 
                 </div>
             </div>
